@@ -10,8 +10,9 @@ Reference: Häußler, J., Gius, E. (2027). SummaryGoals: Using LLMs to Extract C
 
 GitHub Repository: https://github.com/forTEXT/SummaryGoals
 
+# Repository Contents
+
 ```
-.
 ├── README.md
 ├── code            	
 │   └── py	    					<- python files used on a GPU server, requires ollama
