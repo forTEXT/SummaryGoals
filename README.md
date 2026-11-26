@@ -15,13 +15,13 @@ GitHub Repository: https://github.com/forTEXT/SummaryGoals
 ```
 ├── README.md
 ├── code            	
-│   └── py	    					<- python files used on a GPU server, requires ollama
-│   └── ipynb						<- jupyter notebooks used to further analyze data
+│   └── py	    				    <- python files used on a GPU server, requires ollama
+│   └── ipynb	    					<- jupyter notebooks used to further analyze data
 ├── data				
 │   └── results		    		
-│		└── goal_extraction_LLMs	<- goal extraction with LLMs
+│		└── goal_extraction_LLMs	  <- goal extraction with LLMs
 │		└── goal_extraction_manual	<- manual analysis
 │		└── qualitative_evaluation	<- qualitative evaluation of the goal extraction with LLMs
-│		└── question_answering		<- question answering evaluation
-└── prompts							<- prompts used for goal extraction and evaluation
+│		└── question_answering		  <- question answering evaluation
+└── prompts							    <- prompts used for goal extraction and evaluation
 ```
