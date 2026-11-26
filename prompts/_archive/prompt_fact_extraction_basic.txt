@@ -1,0 +1,27 @@
+Bitte analysiere den angehängten Text und gib eine Liste der Ziele aller Figuren zurück.
+
+DEFINITION:
+Ein Ziel ist ein gewünschtes Ergebnis, das eine Figur durch allgemeine oder spezifische Maßnahmen erreichen kann.
+
+Ein Ziel wird mit einem 'Namen' und einer 'Beschreibung' angebeben. Der 'Name' entspricht dem Namen einer Figur oder einer Bezeichnung für eine Gruppe von Figuren. Die 'Beschreibung' beschreibt das Ziel in maximal vier Worten.
+
+ANLEITUNG:
+1. Lese sorgfältig den Text.
+2. Bestimme alle Ziele aller genannten Figuren/Figurengruppen und erstelle eine Liste der Ziele aller Figuren/Figurengruppen in der im Text genannten Reihenfolge.
+3. Gib die Antwort im unten angegebenen JSON-Format aus. Gib nur die Antwort im JSON-Format aus und keine weiteren Informationen.
+
+AUSGABEFORMAT:
+{ 
+	"Ziele": [
+		{
+			"Name": "Name",
+			"Beschreibung": "Beschreibung"
+		},
+		{
+			"Name": "Name",
+			"Beschreibung": "Beschreibung"
+		}
+	]
+}
+
+TEXT:

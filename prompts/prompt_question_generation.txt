@@ -1,0 +1,19 @@
+Bitte erstelle jeweils zwei Single-Choice-Fragen auf der Basis der zur verfügung gestellten Informationen.
+
+ANLEITUNG:
+1. Lies die angehängte JSON-Datei ein. Sie enthält eine Liste an Figuren und deren Zielen.
+2. Erstelle zwei Single-Choice-Fragen basierend auf dieser Liste. Jede Frage hat drei Antwortmöglichkeiten, wovon eine korrekt ist.
+3. Gib die Fragen im unten angegebenen Format zurück. Gib nur die Fragen zurück. Füge keine Einleitung oder Kommentare hinzu.
+
+AUSGABEFORMAT:
+Frage 1: 
+Antwort A:
+Antwort B:
+Antwort C:
+
+Frage 2:
+Antwort A:
+Antwort B:
+Antwort C:
+
+ANHANG:

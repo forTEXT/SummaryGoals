@@ -1,0 +1,48 @@
+Bitte analysiere den angehängten Text und gib eine Liste der Ziele aller Figuren zurück.
+
+DEFINITION:
+Ein Ziel ist ein gewünschtes Ergebnis, das eine Figur durch allgemeine oder spezifische Maßnahmen erreichen kann.
+
+Ein Ziel wird mit einem 'Namen' und einer 'Beschreibung' angebeben. Der 'Name' entspricht dem Namen einer Figur oder einer Bezeichnung für eine Gruppe von Figuren. Der Name wird ohne Artikel angegeben, wenn möglich bestehend aus Vor- und Nachnamen. Die 'Beschreibung' beschreibt das Ziel in maximal vier Worten. Verben werden in der Beschreibung im Infinitiv angegeben.
+
+BEISPIELTEXT:
+
+Eine Gemeinschaft aus Frauen und Männer interessiert sich für den Erwerb eines alten Hauses außerhalb von Berlin. Auf der Fahrt dorthin, während der die Musikauswahl je nach Straßenform anders ist, 
+kommt es zum Zerwürfnis, da ein Mitfahrender ständig Pausen für Taekwondo-Übungen einlegen möchte. Später erfährt man von ihm in der Zeitung, dass dieser Mitreisende das Haus gekauft und renoviert hatte, 
+nun aber spurlos verschwunden sei.
+
+BEISPIELZIELE:
+{
+	"Name": "Gemeinschaft",
+	"Beschreibung": "Haus kaufen"
+},
+{
+	"Name": "Gemeinschaft",
+	"Beschreibung": "Zum Haus fahren"
+},
+{
+	"Name": "Mitfahrer",
+	"Beschreibung": "Taekwondo-Übungen machen"
+}
+
+
+ANLEITUNG:
+1. Lese sorgfältig den Text. Sollten der Zusammenfassung Interpretationsansätze oder andere Anmerkungen hinzugefügt worden sein, ignoriere diese.
+2. Bestimme alle Ziele aller genannten Figuren/Figurengruppen und erstelle eine Liste der Ziele aller Figuren/Figurengruppen in der im Text genannten Reihenfolge.
+3. Gib die Antwort im unten angegebenen JSON-Format aus. Gib nur die Antwort im JSON-Format aus und keine weiteren Informationen.
+
+AUSGABEFORMAT:
+{ 
+	"Ziele": [
+		{
+			"Name": "Name",
+			"Beschreibung": "Beschreibung"
+		},
+		{
+			"Name": "Name",
+			"Beschreibung": "Beschreibung"
+		}
+	]
+}
+
+TEXT:
